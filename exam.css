@@ -1,0 +1,487 @@
+body{  
+    font-family: var(--bs-body-font-family);
+}
+p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #4e4e4e;
+}
+li{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 10px;
+    margin: .6rem;
+}
+
+/* Start hadder */
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.hadder{
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.hadder_text{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.6);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hadder_text div p{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.hadder_text div p::after{
+    content : " | " ;
+    animation-name : typing ;
+    animation-duration : 2s ;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes typing {
+    6% { content :" | "}
+    12% { content :" D | "}
+    18% { content :" De | "}
+    24% { content :" Des | "}
+    30% { content :" Desi | "}
+    36% { content :" Desin | "}
+    42% { content :" Desing | "}
+    48% { content :" Desinge | "}
+    54% { content :" Desinger | "}
+    60% { content :" Desinge | "}
+    66% { content:" Desing | "}
+    72% { content:" Desin | "}
+    78% { content:" Desi | "}
+    84%{ content:" Des | "}
+    90% { content:" De | "}
+    100% { content:" D | "}
+    }
+.hadder_text div h1{
+    color: white;
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+.social i{
+    background-color: #1e1e1e;
+    margin: 5px;
+}
+
+.nav-scroll{
+    background: #fff;
+    -webkit-box-shadow: 0px 30px 50px rgb(0 0 0 / 5%);
+    box-shadow: 0px 30px 50px rgb(0 0 0 / 5%);
+    min-height: 60px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.nav-scroll .navbar-nav > li > a{
+    color: #000000;
+    font-weight: 500;
+}
+.nav-scroll .logo{
+    padding-top: 2px;
+    color: #1c1c1c !important;
+}
+/* End Hadder */
+
+
+
+
+/* Section 1 */
+.about{
+    margin-top: 10vh;
+}
+.about_img{
+    text-align: center;
+    box-shadow: 0 1px 1px 0 rgb(128 128 128 / 4%), 0 2px 5px 0 rgb(99 99 99 / 12%);
+}
+.about-text span{
+    color: #4e4e4e;
+}
+.about-text p{
+    margin-top: 10px;
+    font-weight: 400;
+}
+.about-text{
+    text-align: left;
+    font-weight: 700;
+}
+.progress{
+    margin: 20px 0 20px 0;
+    height: 25px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04), 0 2px 5px 0 rgb(99 99 99 / 12%);
+}
+.about-text-Deitals h6{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px 30px;
+    border: 1px solid #1c1c1c;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all .5s;
+}
+.btn-1:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.btn-2:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+/* End 1 */
+
+
+
+
+
+/* Section 2 */
+.s2{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7f7f7;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+.container_2{
+    width: 85%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.s2_head{
+    height: 13%;
+    text-align: center;   
+}
+.s2_comp_all{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.s2_comp{
+    margin: 15px;
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+.s2_i{
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.s2_ii{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition-duration: .5s;
+    background-color: rgb(255 248 248);
+}
+.s2_ii:hover{ 
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.s2_i i{
+    font-size: 190%;
+}
+.s2_text{
+    height: 60%;
+}
+.s2_text p{
+    font-size: 1.1rem;
+}
+.s2_text h2{
+    color: #000000;
+    font-size: 1.2rem;
+}
+/* End 2 */
+
+
+
+
+
+
+/* Section 3 */
+.Work{
+    margin-bottom: 10vh;
+}
+.work_items{
+    position: relative;
+    width: 85%;
+    overflow: hidden;
+}
+.work_layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    transition:all .4s;
+}
+.work_items:hover .work_layer{
+    opacity: 1;
+    border: 7px rgb(232, 225, 225) solid;
+    top: 50;
+}
+.work_layer_item{
+    position: absolute;
+    top: 100%;
+    transition: all .5s;
+}
+.work_items:hover .work_layer_item{
+    top: 40%;
+}
+.work_layer_item .fa{
+    padding: 7px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.work_layer_item .fa:hover{
+    background-color: #fff;
+    color: #000000;
+    border: #000000 1px solid;
+}
+.nav-pills .nav-link.active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.nav-item button{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* End 3 */
+
+
+
+
+
+/* Start Section 4 */
+.Clients{
+    background: #f7f7f7;
+    padding-bottom: 6vh;
+    margin-bottom: 5vh;
+}
+.Clients_h2{
+    font-size: 2.3rem;
+    padding-bottom: 5vh;
+}
+.Clients .carousel-indicators {
+    top: 100%;
+    color: #000000 !important;
+    
+}
+.Clients .carousel-indicators{
+    bottom:unset;
+}
+.Clients .carousel-indicators [data-bs-target]{
+    background-color: #151414 !important;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.Clients .carousel-item {
+    padding-bottom: 30px;
+}
+/* End 4 */
+
+
+
+
+
+
+
+/* Start Section 5 */
+.s5_items i{
+    font-size: 2rem;
+}
+.s5_items{
+    margin-bottom: 20px;
+}
+.s5_items h3{
+    font-weight: 900;
+    font-size: 2rem;
+}
+.s5_items p{
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+/* End 5 */
+
+
+
+
+
+
+/* Start Section 6 */
+.Blog{
+    background: #f7f7f7;
+    margin-bottom: 5vh;
+    padding-bottom: 5vh;
+}
+.card-title{
+    color: #888;
+    text-decoration: none;
+}
+.blog_b2{
+    color: #000000;
+}
+.card-text{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.post_img{
+    overflow: hidden;
+}
+.card-img-top{
+    transition: all .5s;
+}
+.card-img-top:hover{
+    transform: scale(1.2)!important;
+}
+.Blog .carousel-indicators{
+    top: 100%;
+    color: #000000 !important;
+    bottom:unset;
+}
+.Blog .carousel-indicators [data-bs-target]{
+    background-color: #151414 !important;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.Blog .carousel-item {
+    padding-bottom: 30px;
+}
+/* End 6 */
+
+
+
+
+
+
+
+/* Start Section 7 */
+.contant_icon i{
+    padding: 15px;
+    font-size: 1.7rem;
+    background-color: rgb(225, 217, 217);
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.contant_icon i:hover{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+}
+.Contact button{
+    padding: 10px 40px;
+    margin-bottom: 15px;
+}
+.Contact button:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.Contact input {
+   background-color: rgb(247, 247, 247);
+}
+.Contact textarea {
+   background-color: rgb(244, 244, 244);
+}
+
+/* End 7 */
+
+
+
+
+/* Start Section 8 */
+.flloat p{
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+/* End 8 */
+
+
+
+
+
+
+
+
+
+@media (min-width:700px) and (max-width:1000px) {
+    .s2_comp{
+        width: 45%;
+    }
+}
+
+@media  (max-width:699px) {
+    .s2_comp{
+        width: 100%;
+        
+    }
+    .container_1{
+        display: block;
+    }
+    .card{
+        width: 95% !important;
+    }
+    .Clients_h2 {
+        font-size: 1.5rem;
+    }
+    .Contact button{
+        padding: 10px 20px;
+    }
+}
